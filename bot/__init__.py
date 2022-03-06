@@ -31,7 +31,6 @@ if os.path.isfile("config.py"):
         SESSION = SESSION
         TOKEN = TOKEN
         ADMINS = ADMINS
-        ADMINS = str_to_int(ADMINS.split(" "))
         CHAT_ID = str_to_int(CHAT_ID)
     else:
         API_ID, API_HASH, SESSION, TOKEN, ADMINS, CHAT_ID = load_env()
