@@ -14,7 +14,7 @@ Client(
     API_ID,
     API_HASH,
     bot_token=TOKEN,
-    plugins={'root': 'bot.plugins'}
+    plugins={'root': 'TeamIndia'}
 ).start()
 os.system("echo 'Bot Started'")
 vcusr.run()
